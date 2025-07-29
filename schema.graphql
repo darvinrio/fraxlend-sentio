@@ -1,0 +1,13 @@
+enum PositionType {
+  Collateral
+  Supply
+  Borrow
+}
+
+type PositionState @entity {
+  id: ID!
+  address: String!
+  type: PositionType!
+  updatedAt: BigInt!
+  balance: BigDecimal!
+}
