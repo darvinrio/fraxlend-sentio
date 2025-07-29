@@ -1,8 +1,3 @@
-node_modules
-projects/*/src/types
-projects/*/dist
-projects/*/src/schema
-
 .idea
 src/types
 
