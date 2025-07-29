@@ -9,8 +9,5 @@
     "test": "sentio test",
     "upload": "sentio upload",
     "postinstall": "sentio gen"
-  },
-  "dependencies": {
-    "@swell-network/swentio-utils": "^1.0.0"
   }
 }
